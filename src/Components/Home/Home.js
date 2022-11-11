@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import  ModelViewer from "../3dModel/modelloader";
 
 const Home = () => {
 
@@ -143,6 +144,7 @@ const Home = () => {
                       <button type="button" class="btn btn-default get">Get it now</button>
                     </div>
                     <div class="col-sm-6">
+                      <ModelViewer scale="8" modelPath={"assets/obj/headphone_modelling3.glb"} />
                       <img src="assets/images/home/girl1.jpg" class="girl img-responsive" alt="" />
                       <img src="assets/images/home/pricing.png" class="pricing" alt="" />
                     </div>
