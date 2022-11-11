@@ -5,10 +5,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -16,16 +13,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -47,6 +35,20 @@
 
 #slider{
   width:100%;
-  height:500px;
+  height:1050px;
 
+}
+.gradient_back{
+  background: rgb(34,193,195);
+  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(0,0,0,1) 90%);
+
+
+}
+
+
+#header{
+  display:flex;
+  align-items: left;
+ font-weight: 100px;
+ color: white;
 }
