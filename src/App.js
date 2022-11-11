@@ -6,6 +6,7 @@ import { Contact } from "./Components/Contact/Contact";
 //import { Description } from "./Components/Description/Desc";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { initializeApp } from 'firebase/app';
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
@@ -34,6 +35,39 @@ function App() {
   );
 }
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-export default App;
+// Initialize Cloud Firestore through Firebase
+
+// const banshaj = async(userd) => {
+  // try {
+    //   const docRef = await addDoc(collection(db, "users"), {
+      //     first: "Ada",
+      //     last: "Lovelace",
+      //     born: 1815
+      //   });
+      //   console.log("Document written with ID: ", docRef.id);
+      // } catch (e) {
+        //   console.error("Error adding document: ", e);
+        // }
+        // }
+
+        
+const banshaj = async(userd) => {
+        const db = getFirestore(app);
+        firebase.firestore().collection("users").doc(documentId).get().then((snapshot) => {
+          console.log(snapshot.data())
+        }).catch((e) => console.log(e))
+        // const docRef = doc(db, "users", "Lovelace");
+        // const docSnap = await getDoc(docRef);
+        
+        // if(docSnap.exists()) {
+        //   console.log("Document data:", docSnap.data());
+        // } else {
+        //   console.log("No such document!");
+        // }
+};        
+banshaj();
+        export default App;
+        
