@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import '../../App.css';
 import  ModelViewer from "../3dModel/modelloader";
 import Card from "react-bootstrap/Card";
@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
 const Home = () => {
+  const canvasRef = useRef(null)
   return (
     <div>
       <header id="header">
@@ -107,12 +108,14 @@ const Home = () => {
                       </button>
                     </div>
                     <div class="col-sm-6">
-                      <ModelViewer scale="80" modelPath={"assets/obj/headphone_modelling3.glb"} />
-                      <img
+                      <ModelViewer scale="120" modelPath={"assets/obj/headphone_modelling3.glb"} />
+        
+                      {/* <canvas id="sumreed" ></canvas> */}
+                      {/* <img
                         src="assets/images/home/pricing.png"
                         class="pricing"
                         alt=""
-                      />
+                      /> */}
                     </div>
                   </div>
 
@@ -132,7 +135,7 @@ const Home = () => {
                         Get it now
                       </button>
                     </div>
-                    <div class="col-sm-6">
+                    {/* <div class="col-sm-6">
                       <img
                         src="assets/images/home/girl2.jpg"
                         class="girl img-responsive"
@@ -143,7 +146,7 @@ const Home = () => {
                         class="pricing"
                         alt=""
                       />
-                    </div>
+                    </div> */}
                   </div>
 
                   <div class="item">
