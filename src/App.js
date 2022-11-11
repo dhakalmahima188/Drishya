@@ -4,7 +4,18 @@ import { Home } from "./Components/Home/Home";
 import { Payment } from "./Components/Payment/Payment";
 import { Contact } from "./Components/Contact/Contact";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import { initializeApp } from 'firebase/app';
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBzYJplmMKv7FENN2_lkX2rZ2voF6dtwMU",
+  authDomain: "ignitepnp-42ff6.firebaseapp.com",
+  projectId: "ignitepnp-42ff6",
+  storageBucket: "ignitepnp-42ff6.appspot.com",
+  messagingSenderId: "915540276514",
+  appId: "1:915540276514:web:caae1d4a801f7244ff617b",
+  measurementId: "G-MCCTRR4VEW"
+};
 
 function App() {
   return (
@@ -21,5 +32,7 @@ function App() {
     </div>
   );
 }
+
+const app = initializeApp(firebaseConfig);
 
 export default App;
