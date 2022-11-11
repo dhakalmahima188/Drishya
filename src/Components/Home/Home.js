@@ -145,8 +145,8 @@ const Home = () => {
                     </div>
                     <div class="col-sm-6">
                       <ModelViewer scale="8" modelPath={"assets/obj/headphone_modelling3.glb"} />
-                      <img src="assets/images/home/girl1.jpg" class="girl img-responsive" alt="" />
-                      <img src="assets/images/home/pricing.png" class="pricing" alt="" />
+                      {/* <img src="assets/images/home/girl1.jpg" class="girl img-responsive" alt="" /> */}
+                      {/* <img src="assets/images/home/pricing.png" class="pricing" alt="" /> */}
                     </div>
                   </div>
                   <div class="item">
