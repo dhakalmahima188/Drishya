@@ -6,6 +6,7 @@ import { Contact } from "./Components/Contact/Contact";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import StripeCheckout from "react-stripe-checkout";
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
 
 
 
@@ -67,5 +68,6 @@ function App() {
   );
 }
 
+const app = initializeApp(firebaseConfig);
 
 export default App;
