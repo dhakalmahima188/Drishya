@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Desc = () => {
+export default function Desc(){
   return (
     <div>Desc</div>
   )
