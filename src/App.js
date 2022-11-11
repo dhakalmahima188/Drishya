@@ -68,6 +68,6 @@ function App() {
   );
 }
 
-const app = initializeApp(firebaseConfig);
+// const app = initializeApp(firebaseConfig);
 
 export default App;
