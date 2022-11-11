@@ -1,14 +1,13 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Home } from "./Components/Home/Home";
+import Home  from "./Components/Home/Home";
 import { Payment } from "./Components/Payment/Payment";
 import { Contact } from "./Components/Contact/Contact";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import StripeCheckout from "react-stripe-checkout";
-// import {Elements} from '@stripe/react-stripe-js';
-// import {loadStripe} from '@stripe/stripe-js';
-// const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
+
+
 
 function App() {
   const [product, setProduct] = useState({
@@ -67,5 +66,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
