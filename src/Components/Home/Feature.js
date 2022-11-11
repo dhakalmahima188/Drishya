@@ -8,12 +8,16 @@ export const Feature = () => {
         <div class="row">
           <div class="col-sm-9 padding-right">
             <div class="features_items">
-              <h2 class="title text-center">Featured Items</h2>
-              <div class="col-sm-4">
+              <h2 class="title text-center">Our Products</h2>
+<div className='cont'>
+
+              <div class="col-sm-4 feat">
                 <div class="product-image-wrapper">
                   <div class="single-products">
                     <div class="productinfo text-center">
-                      <img src="assets/images/home/product1.jpg" alt="" />
+                   
+                      <img id="img_width" src="assets/images/home/product1.jpg" alt="" />
+              
                       <h2>$56</h2>
                       <p>Easy Polo Black Edition</p>
                       <a href="#" class="btn btn-default add-to-cart">
@@ -32,11 +36,14 @@ export const Feature = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4">
+              
+              <div class="col-sm-4 feat">
                 <div class="product-image-wrapper">
                   <div class="single-products">
                     <div class="productinfo text-center">
-                      <img src="assets/images/home/product2.jpg" alt="" />
+                    
+                      <img id="img_width" src="assets/images/home/product2.jpg" alt="" />
+                   
                       <h2>$56</h2>
                       <p>Easy Polo Black Edition</p>
                       <a href="#" class="btn btn-default add-to-cart">
@@ -56,11 +63,13 @@ export const Feature = () => {
                 </div>
               </div>
 
-              <div class="col-sm-4">
+              <div class="col-sm-4 feat">
                 <div class="product-image-wrapper">
                   <div class="single-products">
                     <div class="productinfo text-center">
-                      <img src="assets/images/home/product6.jpg" alt="" />
+                    
+                      <img id="img_width" src="assets/images/home/product3.jpg" alt="" />
+                   
                       <h2>$56</h2>
                       <p>Easy Polo Black Edition</p>
                       <a href="#" class="btn btn-default add-to-cart">
@@ -79,6 +88,13 @@ export const Feature = () => {
                   </div>
                 </div>
               </div>
+
+            
+
+
+
+              </div>
+
             </div>
 
            
