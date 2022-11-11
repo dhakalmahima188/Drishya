@@ -8,7 +8,7 @@ const GltfModel = ({ modelPath, scale = 40, position = [-10, -10, -10] }) => {
   const [hovered, hover] = useState(false);
 
   // Subscribe this component to the render-loop, rotate the mesh every frame
-  useFrame((state, delta) => (ref.current.rotation.y += 0.09));
+  useFrame((state, delta) => (ref.current.rotation.y += 0.03));
   return (
     <>
       <primitive

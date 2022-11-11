@@ -108,7 +108,7 @@ const Home = () => {
                       </button>
                     </div>
                     <div class="col-sm-6">
-                      <ModelViewer scale="120" modelPath={"assets/obj/headphone_modelling3.glb"} />
+                      <ModelViewer scale="2" modelPath={"assets/obj/headphone_modelling3.glb"} />
         
                       {/* <canvas id="sumreed" ></canvas> */}
                       {/* <img
