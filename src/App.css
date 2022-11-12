@@ -34,17 +34,15 @@
 }
 
 .gradient_back {
-  background: rgb(34, 193, 195);
-  background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
+  background: rgb(139, 237, 241);
+  background: radial-gradient(
+    circle,
+    rgba(139, 237, 241, 1) 2%,
+    rgba(75, 240, 244, 0.1820851688693098) 48%
   );
 }
-
 #header {
   display: flex;
-  align-items: left;
   font-weight: 100px;
   color: white;
 }
@@ -87,10 +85,10 @@
 }
 
 #footer {
-  margin-top: 250px;
+  margin-top: 50px;
   background-color: rgb(46, 29, 29);
   color: white;
-  height:250px;
+  height: 250px;
 }
 
 h2.title {
@@ -98,4 +96,13 @@ h2.title {
   font-size: 80px !important;
   font-weight: 800 !important;
   padding: 30px !important;
+}
+.prooo {
+  margin-top: 40px;
+  background: rgb(139, 237, 241);
+  background: radial-gradient(
+    circle,
+    rgba(139, 237, 241, 1) 2%,
+    rgba(75, 240, 244, 0.1820851688693098) 48%
+  );
 }

@@ -14,7 +14,7 @@ export const Feature = () => {
   }
 
   return (
-    <div>
+    <div className='prooo'>
       <div className="container_feature">
         <div className="row">
           <div className="col-sm-9 padding-right">
