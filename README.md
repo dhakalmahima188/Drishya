@@ -92,3 +92,62 @@ Each region is logically divided in the view of user wearing the device. Here,  
 |-------------------------|--------------|---------------|--------------------|
 |  2000Mah                | 4.2          | 8.4           | 2.87               |
 |  3000Mah                | 4.2          | 12.6          | 4.34               |
+
+
+# Research and Development Accounting
+
+- Assets:
+    Devices bought in product design.
+    $2000 worth of devices to assist and aid in design.
+
+- Computer Resource:
+    Training the neural network for better prediction of objects.
+    $9285 for 730 hours of training in google cloud platform.
+
+- Wages:
+    With a workforce of 4 people, contributing to total expense of $300 for
+    each month for each person. The total expense for 3 month product development in wages 
+    results to $4500.
+
+# Mass Production of Device.
+
+$40 per device. The starter kit will go in production after 3 month of
+development. The initial sale will count upto 3000 devices. Marking a profit
+margin of $20 per device, we can sale the device @ $60 per user. This counts to 
+$20 * 3000 = $60000 of estimated income if all the devices bear sale.
+
+We are open to investment and backer who could further assist to make our
+product profitable.
+
+The $20 margin over the product is a bit high, but every device we sale comes
+with a warrenty span of 2 years, which will cover any type of accidental damage.
+
+# Initial Investment
+
+3000 devices costing each $40 to paid at once summing to $120000, and $2000 prototype materials,
+$10000 in AI training, $4500 for wages, $2000 for security deposit. Marketing
+Cost may include $2000 based on the interest and type of marketing.
+
+So the total sum accounts to $140500.
+
+# Recovering the Capital
+
+Initial Investment goal sums to $30000.
+Early Adopter discount for first 1000 devices costing $55.
+If all the 1000 devices are sold, this accounts to $55000.
+
+This initial sum amounts to $85,000 which we can pay to advance to production of
+our 3000 units.
+The sum will not be paid in total to the manufacture our device. Remaining
+payment shall in later installments.
+
+Considering the remaining units to be sold. We earn about $60 * 2000 = $120000.
+
+Remaining Manufacture Cost: $120000 - (paid) $70000 = $50000
+Marketing and Operating Cost: $5000
+
+Operating Cost is Covered by the remaining initial $15000 to fuel the company for 6
+months.
+
+The target is to sell 2000/6 ~ 334 units to sold per month.
+If this target is met, $50000/60 = 667 units to be sold to recover the capital.
