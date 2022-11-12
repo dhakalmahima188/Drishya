@@ -27,8 +27,8 @@
 }
 
 #sumreed {
-  height: 61rem !important;
-  width: 100% !important;
+  height: 100rem !important;
+  width: 144rem !important;
 }
 
 #slider {
@@ -38,8 +38,8 @@
 }
 
 .gradient_back {
-  background: rgb(34, 193, 195);
-  background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(0, 0, 0, 1) 90%);
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 
 
 }
@@ -62,5 +62,16 @@
 
 #img_width {
   height: 300px;
-  weight: 400px
+  
+}
+
+.carousel-inner{
+  
+  width: 157rem !important;
+  
+}
+
+.container {
+  margin-left:0px !important;
+  
 }

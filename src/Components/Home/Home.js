@@ -16,9 +16,9 @@ const Home = () => {
           <div class="row">
             <div class="col-sm-12">
               <div
-                id="slider-carousel"
-                class="carousel slide"
-                data-ride="carousel"
+                // id="slider-carousel"
+                // class="carousel slide"
+                // data-ride="carousel"
               >
               
 
@@ -26,7 +26,7 @@ const Home = () => {
                   <div class="item active">
                     <div class="col-sm-6">
                       <ModelViewer
-                        scale="2"
+                        scale="6"
                         modelPath={"assets/obj/headphone_modelling3.glb"}
                       />
                     </div>
