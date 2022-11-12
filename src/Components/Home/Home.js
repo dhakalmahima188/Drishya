@@ -7,6 +7,7 @@ import { Footer } from "./Footer";
 import { Feature } from "./Feature";
 import { Desc } from "./Desc";
 
+
 const Home = () => {
   const canvasRef = useRef(null);
   return (

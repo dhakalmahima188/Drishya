@@ -36,27 +36,7 @@ function App() {
     name: "mahima",
     price: 10,
   });
-  const makePayment = (token) => {
-    const body = {
-      token,
-      product,
-    };
-    const headers = {
-      "Content-Type": "application/json",
-    };
-
-    return fetch(`http://localhost:8282/pay`, {
-      method: "  POST",
-      headers,
-      body: JSON.stringify(body),
-    })
-      .then((response) => {
-        console.log("Response", response);
-        const { status } = response;
-        console.log("status", status);
-      })
-      .catch((err) => console.log("error"));
-  };
+ 
 
   return (
     <div className="App">
@@ -69,16 +49,7 @@ function App() {
             element={
               <>
                 <Payment />
-                <StripeCheckout
-                  stripeKey="pk_test_51M2tsDEkKK5QsPCeUrjHOWxDwTrFdPQEXZz7WY6ZCi0zbvWgos14kFzySODxqaWnIXfU1lZZsYjpBmMBWtzUk0Y600rMEEYJd8"
-                  token={makePayment}
-                  name="Spectacle brand 1"
-                  amount={product.price}
-                >
-                  <button className="btn-large pink">
-                    buy me at {product.price} $
-                  </button>
-                </StripeCheckout>
+                
               </>
             }
           />

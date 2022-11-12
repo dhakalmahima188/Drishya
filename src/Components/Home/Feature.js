@@ -1,14 +1,39 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import { MdShoppingCart } from "react-icons/md";
-
+import StripeCheckout from "react-stripe-checkout";
 export const Feature = () => {
+
+  const makePayment = (token) => {
+    const body = {
+      token,
+      
+    };
+    const headers = {
+      "Content-Type": "application/json",
+    };
+
+    return fetch(`http://localhost:8282/pay`, {
+      method: "  POST",
+      headers,
+      body: JSON.stringify(body),
+    })
+      .then((response) => {
+        console.log("Response", response);
+        const { status } = response;
+        console.log("status", status);
+      })
+      .catch((err) => console.log("error"));
+  };
+
   function prints(sn, price, name) {
     var obj = {
       sn: sn,
       name: name,
       price: price,
     };
+
+    
 
     console.log("Yeta xa", obj);
   }
@@ -38,7 +63,14 @@ export const Feature = () => {
                         <div className="overlay-content">
                           <h2 id="p1">$50</h2>
                           <p id="n1">Sunglass Black Edition</p>
-                          <Button
+
+                          <StripeCheckout
+                  stripeKey="pk_test_51M2tsDEkKK5QsPCeUrjHOWxDwTrFdPQEXZz7WY6ZCi0zbvWgos14kFzySODxqaWnIXfU1lZZsYjpBmMBWtzUk0Y600rMEEYJd8"
+                  token={makePayment}
+                  name="Spectacle brand 1"
+                 
+                >
+                   <Button
                             variant="primary"
                             onClick={() =>
                               prints(
@@ -47,10 +79,14 @@ export const Feature = () => {
                                 document.getElementById("n1").innerHTML
                               )
                             }
-                          >
-                            <MdShoppingCart />
-                            Add to cart
-                          </Button>
+                          > <MdShoppingCart />
+                          Add to cart
+                        </Button>
+                 
+                </StripeCheckout>
+                          
+                         
+                           
                         </div>
                       </div>
                     </div>
