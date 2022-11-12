@@ -1,21 +1,16 @@
 import React from "react";
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBRow,
-  MDBCol,
-  MDBIcon,
-} from "mdb-react-ui-kit";
+import { MDBFooter, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
+import { MdPermPhoneMsg, MdMarkEmailUnread, MdRoom } from "react-icons/md";
+
 export const Footer = () => {
   return (
     <div className="footer">
-      {" "}
+   
       <footer id="footer">
-        <MDBFooter
-          bgColor="light"
-          className=" text-lg-start text-muted"
-        >
+       
           <section className="">
+            <br></br>
+            <br></br>
             <MDBContainer className=" text-md-start mt-5">
               <MDBRow className="mt-3">
                 <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
@@ -64,32 +59,26 @@ export const Footer = () => {
                 <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
                   <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                   <p>
-                    <MDBIcon color="secondary" icon="home" className="me-2" />
+                    <MdRoom />
                     Pulchowk Campus, Lalitpur
                   </p>
                   <p>
-                    <MDBIcon
-                      color="secondary"
-                      icon="envelope"
-                      className="me-3"
-                    />
+                    <MdMarkEmailUnread />
                     info@example.com
                   </p>
                   <p>
-                    <MDBIcon color="secondary" icon="phone" className="me-3" />{" "}
-                    + 01 234 567 88
+                    <MdPermPhoneMsg /> 9742357373
                   </p>
                   <p>
-                    <MDBIcon color="secondary" icon="print" className="me-3" />{" "}
-                    + 01 234 567 89
+                    <MdPermPhoneMsg /> 9816475177
                   </p>
                 </MDBCol>
               </MDBRow>
             </MDBContainer>
           </section>
-
+          </footer>
           <div
-            className="text-center p-4"
+            className="text-center "
             style={{ backgroundColor: "whitesmoke" }}
           >
             © 2022 Copyright:
@@ -97,8 +86,8 @@ export const Footer = () => {
               TEAM PNP
             </a>
           </div>
-        </MDBFooter>
-      </footer>
+        
+     
     </div>
   );
 };

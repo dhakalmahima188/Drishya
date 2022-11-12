@@ -2,15 +2,11 @@
   text-align: center;
 }
 
-
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-
 
 .App-link {
   color: #61dafb;
@@ -27,23 +23,24 @@
 }
 
 #sumreed {
-  height: 61rem !important;
-  width: 100% !important;
+  height: 100rem !important;
+  width: 144rem !important;
 }
 
 #slider {
   width: 100%;
-  height: 1050px;
 
+  height: 100vh;
 }
 
 .gradient_back {
   background: rgb(34, 193, 195);
-  background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(0, 0, 0, 1) 90%);
-
-
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
 }
-
 
 #header {
   display: flex;
@@ -52,20 +49,53 @@
   color: white;
 }
 
+.row {
+  margin-right: -80rem !important;
+  margin-left: -15px !important;
+}
 .productinfo {
   padding: 20px;
-  height: 500px;
-  width: 300px;
+  height: 800px;
+  width: 700px;
   color: white;
-  background-color: whitesmoke
+  background-color: whitesmoke;
+  overflow: hidden;
 }
 
 #img_width {
-  height: 300px;
-  weight: 400px
+  height: 500px;
 }
 
-#footer{
+#footer {
+  display: block;
+  align-items: center;
+  background-color: rgb(3, 3, 3);
+  color: white;
+}
+
+.carousel-inner {
+  width: 157rem !important;
+}
+
+.container {
+  margin-left: 0px !important;
+}
+.container_feature {
+  height: 100vh;
+
+  width: 100%;
+}
+
+#footer {
+  margin-top: 250px;
   background-color: rgb(46, 29, 29);
   color: white;
+  height:250px;
+}
+
+h2.title {
+  color: #fe980f !important;
+  font-size: 80px !important;
+  font-weight: 800 !important;
+  padding: 30px !important;
 }

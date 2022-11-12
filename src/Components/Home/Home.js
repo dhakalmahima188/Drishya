@@ -5,6 +5,7 @@ import Card from "react-bootstrap/Card";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { Feature } from "./Feature";
+import { Desc } from "./Desc";
 
 const Home = () => {
   const canvasRef = useRef(null);
@@ -16,17 +17,15 @@ const Home = () => {
           <div class="row">
             <div class="col-sm-12">
               <div
-                id="slider-carousel"
-                class="carousel slide"
-                data-ride="carousel"
+              // id="slider-carousel"
+              //  class="carousel slide"
+              //  data-ride="carousel"
               >
-              
-
                 <div class="carousel-inner">
                   <div class="item active">
                     <div class="col-sm-6">
                       <ModelViewer
-                        scale="2"
+                        scale="6"
                         modelPath={"assets/obj/headphone_modelling3.glb"}
                       />
                     </div>
@@ -54,37 +53,12 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-
-                <a
-                  href="#slider-carousel"
-                  class="left control-carousel hidden-xs"
-                  data-slide="prev"
-                >
-                  <i class="fa fa-angle-left"></i>
-                </a>
-                <a
-                  href="#slider-carousel"
-                  class="right control-carousel hidden-xs"
-                  data-slide="next"
-                >
-                  <i class="fa fa-angle-right"></i>
-                </a>
-                <ol class="carousel-indicators">
-                  <li
-                    data-target="#slider-carousel"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li data-target="#slider-carousel" data-slide-to="1"></li>
-                  <li data-target="#slider-carousel" data-slide-to="2"></li>
-                </ol>
               </div>
             </div>
           </div>
         </div>
-        
       </section>
-
+      <Desc />
       <Feature />
 
       <Footer />
