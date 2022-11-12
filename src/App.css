@@ -64,3 +64,8 @@
   height: 300px;
   weight: 400px
 }
+
+#footer{
+  background-color: rgb(46, 29, 29);
+  color: white;
+}

@@ -1,57 +1,104 @@
-import React from 'react'
-
+import React from "react";
+import {
+  MDBFooter,
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBIcon,
+} from "mdb-react-ui-kit";
 export const Footer = () => {
   return (
-    <div>  <footer id="footer">
-    <div class="footer-widget">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-2">
-            <div class="single-widget">
-              <h2>About POST</h2>
-              <ul class="nav nav-pills nav-stacked">
-                <li>
-                  <a href="#">Company Information</a>
-                </li>
-                <li>
-                  <a href="#">Careers</a>
-                </li>
-                <li>
-                  <a href="#">Store Location</a>
-                </li>
-                <li>
-                  <a href="#">Affillate Program</a>
-                </li>
-                <li>
-                  <a href="#">Copyright</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-3 col-sm-offset-1">
-            <div class="single-widget">
-              <h2>About POST</h2>
-              <form action="#" class="searchform">
-                <input type="text" placeholder="Your email address" />
-                <button type="submit" class="btn btn-default">
-                  <i class="fa fa-arrow-circle-o-right"></i>
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div className="footer">
+      {" "}
+      <footer id="footer">
+        <MDBFooter
+          bgColor="light"
+          className=" text-lg-start text-muted"
+        >
+          <section className="">
+            <MDBContainer className=" text-md-start mt-5">
+              <MDBRow className="mt-3">
+                <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
+                  <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Spectacle
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Sunglass Model
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      AR integrated
+                    </a>
+                  </p>
+                </MDBCol>
 
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="row">
-          <h5 class="pull-left">
-            Copyright © 2020 THERICH-SHOP Inc. All rights reserved.
-          </h5>
-        </div>
-      </div>
+                <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
+                  <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Pricing
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Settings
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Orders
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-reset">
+                      Help
+                    </a>
+                  </p>
+                </MDBCol>
+
+                <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
+                  <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+                  <p>
+                    <MDBIcon color="secondary" icon="home" className="me-2" />
+                    Pulchowk Campus, Lalitpur
+                  </p>
+                  <p>
+                    <MDBIcon
+                      color="secondary"
+                      icon="envelope"
+                      className="me-3"
+                    />
+                    info@example.com
+                  </p>
+                  <p>
+                    <MDBIcon color="secondary" icon="phone" className="me-3" />{" "}
+                    + 01 234 567 88
+                  </p>
+                  <p>
+                    <MDBIcon color="secondary" icon="print" className="me-3" />{" "}
+                    + 01 234 567 89
+                  </p>
+                </MDBCol>
+              </MDBRow>
+            </MDBContainer>
+          </section>
+
+          <div
+            className="text-center p-4"
+            style={{ backgroundColor: "whitesmoke" }}
+          >
+            © 2022 Copyright:
+            <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
+              TEAM PNP
+            </a>
+          </div>
+        </MDBFooter>
+      </footer>
     </div>
-  </footer></div>
-  )
-}
+  );
+};
