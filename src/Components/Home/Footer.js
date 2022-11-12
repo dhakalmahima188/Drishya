@@ -8,13 +8,13 @@ export const Footer = () => {
    
       <footer id="footer">
        
-          <section className="">
+          <section >
             <br></br>
             <br></br>
             <MDBContainer className=" text-md-start mt-5">
               <MDBRow className="mt-3">
-                <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-                  <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+                <MDBCol md="1" lg="5" xl="2" className="mx-auto mb-4">
+                  <h6 className="text-uppercase fw-bold mb-5">Products</h6>
                   <p>
                     <a href="#!" className="text-reset">
                       Spectacle
@@ -32,7 +32,7 @@ export const Footer = () => {
                   </p>
                 </MDBCol>
 
-                <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
+                <MDBCol md="3" lg="4" xl="2" className="mx-auto mb-4">
                   <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
                   <p>
                     <a href="#!" className="text-reset">
@@ -73,6 +73,7 @@ export const Footer = () => {
                     <MdPermPhoneMsg /> 9816475177
                   </p>
                 </MDBCol>
+                
               </MDBRow>
             </MDBContainer>
           </section>

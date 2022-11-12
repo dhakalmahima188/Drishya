@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+body{
+
+  overflow-y: scroll; 
+  overflow-x:hidden;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -105,4 +111,21 @@ h2.title {
     rgba(139, 237, 241, 1) 2%,
     rgba(75, 240, 244, 0.1820851688693098) 48%
   );
+}
+.product-overlay {
+  background: rgb(139, 237, 241);
+  background: radial-gradient(
+    circle,
+    rgba(139, 237, 241, 1) 2%,
+    rgba(75, 240, 244, 0.1820851688693098) 48%
+  );
+ 
+  top: 0;
+  display: none;
+  height: 0;
+  position: absolute;
+  transition: height 500ms ease 0s;
+  width: 100%;
+  display: block;
+  opacity: ;
 }
