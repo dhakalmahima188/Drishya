@@ -38,35 +38,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Each region is logically divided in the view of user wearing the device. Here,  ***L*** refers to **left** from the user's view, ***R*** refers to **right** from the user's view, ***T*** refers to **top** from the user's view, ***B*** refers to **bottom** from the user's view and ***C*** refers to **center** from the user's view. A combination of any of them maps them to a particular region in the FOV.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+<br>
 
 
 # Cost Calculation
@@ -81,6 +57,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 | Battery                 | $5                |
 | **Total**               |  $39              |
 
+<br>
 
 ## Mass Production Estimated Cost
 
@@ -95,6 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 | Battery                 | $15               |
 | **Total**               | $100              |
 
+<br>
 
 # Power Calculation
 
@@ -106,13 +84,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 | Battery                 | 0.2          | 5             | 1 W                |
 | **Total**               |              |               | 2.9W               |
 
-
+<br>
 
 # Usage Time
 
-|  **Battery**            |              |               |                    |
-|-------------------------|--------------|---------------|--------------------|
 |  **Capacity**           | **Voltage**  | **Watt Hour** | **Time in hours**  |
+|-------------------------|--------------|---------------|--------------------|
 |  2000Mah                | 4.2          | 8.4           | 2.87               |
 |  3000Mah                | 4.2          | 12.6          | 4.34               |
-Each region is logically divided in the view of user wearing the device. Here,  ***L*** refers to **left** from the user's view, ***R*** refers to **right** from the user's view, ***T*** refers to **top** from the user's view, ***B*** refers to **bottom** from the user's view and ***C*** refers to **center** from the user's view. A combination of any of them maps them to a particular region in the FOV.
