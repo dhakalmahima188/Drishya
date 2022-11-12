@@ -1,0 +1,3 @@
+[submodule "drishya"]
+	path = drishya
+	url = git@github.com:krishbin/virtualeye.git
