@@ -68,3 +68,51 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Cost Calculation
+
+### Starter Kit
+
+| **Device**              | **Cost(In USD)**  |
+|-------------------------|-------------------|
+| Coral TPU               | $19               |
+| ESP-32 Camera           | $8                |
+| Fabrication and Custom Glasses with speaker | $7                |
+| Battery                 | $5                |
+| **Total**               |  $39              |
+
+
+## Mass Production Estimated Cost
+
+
+| **Device**              | **Cost(In USD)**  |
+|-------------------------|-------------------|
+| Rockchip RK3588         | $50               |
+| IMX 766                 | $20               |
+| Fabrication and Custom  | $15               |
+| Glasses with speaker    | $3                |
+| NAND and RAM            | $17               |
+| Battery                 | $15               |
+| **Total**               | $100              |
+
+
+# Power Calculation
+
+
+| **Device**              | **Current**  | **Voltage**   | **Power**          |
+|-------------------------|--------------|---------------|--------------------|
+| Coral TPU @ 2T Flops    | 0.303        | 3.3           | 1W                 |
+| ESP-32 Camera           | 0.18         | 5             | 0.9                |
+| Battery                 | 0.2          | 5             | 1 W                |
+| **Total**               |              |               | 2.9W               |
+
+
+
+# Usage Time
+
+|  **Battery**            |              |               |                    |
+|-------------------------|--------------|---------------|--------------------|
+|  **Capacity**           | **Voltage**  | **Watt Hour** | **Time in hours**  |
+|  2000Mah                | 4.2          | 8.4           | 2.87               |
+|  3000Mah                | 4.2          | 12.6          | 4.34               |
